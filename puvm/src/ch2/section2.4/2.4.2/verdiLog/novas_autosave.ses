@@ -1,0 +1,46 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+viewport = 22 26 963 596 315 248 157 961
+activeNode = "my_env"
+activeScope = "my_env"
+activeFile = "my_env.sv#inc__$root__127#"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 35
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "my_env"
+Scope2 = "my_sequence"
+Scope3 = "top_tb"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = my_env
+File = /home/hao/wrk/UVM/example_and_uvm_source_code/puvm/src/ch2/section2.4/2.4.2/my_env.sv#inc__$root__127#
+Line = 36
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/hao/wrk/UVM/example_and_uvm_source_code/puvm/src/ch2/section2.4/2.4.2
+design = DebussyLib
+hostCommand = hostCommand -sv -f filelist.f

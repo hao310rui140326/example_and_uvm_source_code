@@ -1,0 +1,469 @@
+Command: ./simv -l vcs_sim.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Oct 23 10:36 2020
+----------------------------------------------------------------
+UVM-1.1d
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test my_env...
+UVM_INFO my_driver.sv(71) @ 1100000: uvm_test_top.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(42) @ 2100000: uvm_test_top.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(42) @ 2300000: uvm_test_top.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(82) @ 45500000: uvm_test_top.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(71) @ 45500000: uvm_test_top.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(70) @ 45700000: uvm_test_top.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 45700000: uvm_test_top.mdl [my_model] get one transaction, copy and print it:
+dmac = 51348e8b5935
+smac = c3466c75f23
+ether_type = c29a
+pload[0] = e2
+pload[1] = a9
+pload[2] = 3c
+pload[3] = d9
+pload[4] = fa
+pload[5] = ac
+pload[6] = 21
+pload[7] = 93
+pload[8] = 3
+pload[9] = ca
+pload[10] = 4a
+pload[11] = a7
+pload[12] = d0
+pload[13] = ee
+pload[14] = 4a
+pload[15] = d
+pload[16] = 21
+pload[17] = 72
+pload[18] = 5b
+pload[19] = d1
+pload[20] = ac
+pload[21] = 5d
+pload[22] = c8
+pload[23] = ce
+pload[24] = 41
+pload[25] = 8d
+pload[26] = 17
+pload[27] = e3
+pload[28] = 7b
+pload[29] = 89
+pload[30] = e0
+pload[31] = 3e
+pload[32] = 3c
+pload[33] = 4
+pload[34] = 62
+pload[35] = 46
+pload[36] = f0
+pload[37] = 6e
+pload[38] = 88
+pload[39] = 9e
+pload[40] = 65
+pload[41] = e8
+pload[42] = 85
+pload[43] = d1
+pload[44] = a5
+pload[45] = c
+pload[46] = b7
+pload[47] = 3
+pload[48] = c4
+pload[49] = a1
+pload[50] = 11
+pload[51] = 65
+pload[52] = 2c
+pload[53] = bb
+pload[54] = 8f
+pload[55] = 2f
+pload[56] = 58
+pload[57] = 7
+pload[58] = b0
+pload[59] = 6f
+pload[60] = 6a
+pload[61] = a6
+pload[62] = 46
+pload[63] = b2
+pload[64] = 31
+pload[65] = bf
+pload[66] = 59
+pload[67] = 2
+pload[68] = a5
+pload[69] = e5
+pload[70] = 55
+pload[71] = 36
+pload[72] = 23
+pload[73] = 9a
+pload[74] = 7b
+pload[75] = 9c
+pload[76] = a7
+pload[77] = 9c
+pload[78] = fa
+pload[79] = 9
+pload[80] = 16
+pload[81] = 6f
+pload[82] = 48
+pload[83] = 30
+pload[84] = 59
+pload[85] = 68
+pload[86] = 25
+pload[87] = a3
+pload[88] = ac
+pload[89] = eb
+pload[90] = 86
+pload[91] = 59
+pload[92] = f7
+pload[93] = 4a
+pload[94] = d6
+pload[95] = 4c
+pload[96] = ae
+pload[97] = f3
+pload[98] = fc
+pload[99] = 6
+pload[100] = 92
+pload[101] = 4f
+pload[102] = b2
+pload[103] = d3
+pload[104] = e0
+pload[105] = 5a
+pload[106] = 98
+pload[107] = ff
+pload[108] = 8b
+pload[109] = 9
+pload[110] = 89
+pload[111] = 95
+pload[112] = d1
+pload[113] = 94
+pload[114] = 26
+pload[115] = 40
+pload[116] = 75
+pload[117] = 40
+pload[118] = b1
+pload[119] = 24
+pload[120] = 37
+pload[121] = a4
+pload[122] = 7c
+pload[123] = 47
+pload[124] = 62
+pload[125] = f3
+pload[126] = 50
+pload[127] = 86
+pload[128] = 88
+pload[129] = c5
+pload[130] = 43
+pload[131] = a5
+pload[132] = 1d
+pload[133] = 7
+pload[134] = 9
+pload[135] = eb
+pload[136] = dd
+pload[137] = 66
+pload[138] = e6
+pload[139] = ec
+pload[140] = 4e
+pload[141] = 70
+pload[142] = 9d
+pload[143] = cf
+pload[144] = 67
+pload[145] = 24
+pload[146] = 18
+pload[147] = 2f
+pload[148] = 33
+pload[149] = a4
+pload[150] = 92
+pload[151] = 8b
+pload[152] = 9f
+pload[153] = 41
+pload[154] = 5a
+pload[155] = f9
+pload[156] = ae
+pload[157] = 5a
+pload[158] = 9
+pload[159] = 1a
+pload[160] = 1f
+pload[161] = e7
+pload[162] = ef
+pload[163] = 1a
+pload[164] = b
+pload[165] = de
+pload[166] = 32
+pload[167] = d7
+pload[168] = 57
+pload[169] = 53
+pload[170] = c7
+pload[171] = de
+pload[172] = 6f
+pload[173] = eb
+pload[174] = a4
+pload[175] = 50
+pload[176] = f7
+pload[177] = b5
+pload[178] = 67
+pload[179] = f0
+pload[180] = 2f
+pload[181] = e2
+pload[182] = 8
+pload[183] = 13
+pload[184] = a1
+pload[185] = dd
+pload[186] = 23
+pload[187] = 14
+pload[188] = f5
+pload[189] = 9f
+pload[190] = a9
+pload[191] = a8
+pload[192] = e3
+pload[193] = 5f
+pload[194] = 79
+pload[195] = d2
+pload[196] = e1
+pload[197] = 3d
+pload[198] = c5
+pload[199] = 41
+crc = 0
+UVM_INFO my_monitor.sv(70) @ 45900000: uvm_test_top.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 45900000: uvm_test_top.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(42) @ 46500000: uvm_test_top.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(42) @ 46700000: uvm_test_top.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(82) @ 89900000: uvm_test_top.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_monitor.sv(70) @ 90100000: uvm_test_top.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 90100000: uvm_test_top.mdl [my_model] get one transaction, copy and print it:
+dmac = 74fe6fb4da16
+smac = f366f8f13c8d
+ether_type = b059
+pload[0] = b7
+pload[1] = 2c
+pload[2] = ba
+pload[3] = 9f
+pload[4] = de
+pload[5] = 94
+pload[6] = d3
+pload[7] = 26
+pload[8] = 51
+pload[9] = 3
+pload[10] = b8
+pload[11] = e9
+pload[12] = a
+pload[13] = 2b
+pload[14] = 6b
+pload[15] = 9a
+pload[16] = 3
+pload[17] = 3b
+pload[18] = 9f
+pload[19] = d8
+pload[20] = bc
+pload[21] = 76
+pload[22] = e
+pload[23] = 2a
+pload[24] = 37
+pload[25] = 7e
+pload[26] = e4
+pload[27] = 46
+pload[28] = 54
+pload[29] = 87
+pload[30] = 51
+pload[31] = ef
+pload[32] = 5
+pload[33] = b
+pload[34] = 13
+pload[35] = 9c
+pload[36] = 10
+pload[37] = 49
+pload[38] = e6
+pload[39] = 5b
+pload[40] = 70
+pload[41] = f2
+pload[42] = f5
+pload[43] = e1
+pload[44] = 80
+pload[45] = 44
+pload[46] = 7a
+pload[47] = 9a
+pload[48] = cf
+pload[49] = 91
+pload[50] = 27
+pload[51] = a8
+pload[52] = 7f
+pload[53] = 5b
+pload[54] = 1
+pload[55] = a7
+pload[56] = b0
+pload[57] = 91
+pload[58] = 3a
+pload[59] = 14
+pload[60] = d9
+pload[61] = f2
+pload[62] = 7b
+pload[63] = 43
+pload[64] = b9
+pload[65] = 5c
+pload[66] = 82
+pload[67] = 3a
+pload[68] = 1
+pload[69] = a5
+pload[70] = 27
+pload[71] = 1e
+pload[72] = 73
+pload[73] = 4f
+pload[74] = 51
+pload[75] = d5
+pload[76] = 41
+pload[77] = 2e
+pload[78] = 25
+pload[79] = a8
+pload[80] = 90
+pload[81] = f
+pload[82] = f4
+pload[83] = d7
+pload[84] = e9
+pload[85] = e8
+pload[86] = f8
+pload[87] = 18
+pload[88] = 54
+pload[89] = a6
+pload[90] = df
+pload[91] = c3
+pload[92] = 95
+pload[93] = e3
+pload[94] = 1
+pload[95] = 7b
+pload[96] = ab
+pload[97] = 8c
+pload[98] = b3
+pload[99] = 19
+pload[100] = 93
+pload[101] = bd
+pload[102] = df
+pload[103] = 11
+pload[104] = cb
+pload[105] = 56
+pload[106] = b4
+pload[107] = 8a
+pload[108] = f
+pload[109] = 3
+pload[110] = 2e
+pload[111] = e8
+pload[112] = 35
+pload[113] = dd
+pload[114] = 9c
+pload[115] = 41
+pload[116] = 5e
+pload[117] = cc
+pload[118] = 66
+pload[119] = 9e
+pload[120] = d0
+pload[121] = 2c
+pload[122] = cb
+pload[123] = 60
+pload[124] = 1d
+pload[125] = 2
+pload[126] = be
+pload[127] = 94
+pload[128] = 74
+pload[129] = 75
+pload[130] = 7a
+pload[131] = 12
+pload[132] = b6
+pload[133] = a8
+pload[134] = 3c
+pload[135] = fa
+pload[136] = 89
+pload[137] = f2
+pload[138] = a2
+pload[139] = 5b
+pload[140] = bb
+pload[141] = 97
+pload[142] = fa
+pload[143] = 6f
+pload[144] = 75
+pload[145] = 9c
+pload[146] = 82
+pload[147] = f3
+pload[148] = c4
+pload[149] = 5b
+pload[150] = 79
+pload[151] = 2b
+pload[152] = e3
+pload[153] = 9c
+pload[154] = f0
+pload[155] = 4c
+pload[156] = 40
+pload[157] = 39
+pload[158] = 6a
+pload[159] = 9f
+pload[160] = 7e
+pload[161] = 70
+pload[162] = e0
+pload[163] = 91
+pload[164] = f7
+pload[165] = fd
+pload[166] = b7
+pload[167] = f6
+pload[168] = c6
+pload[169] = 5c
+pload[170] = ab
+pload[171] = e3
+pload[172] = 90
+pload[173] = c0
+pload[174] = b9
+pload[175] = bd
+pload[176] = 1e
+pload[177] = 93
+pload[178] = 3e
+pload[179] = 4c
+pload[180] = 7f
+pload[181] = dd
+pload[182] = 6e
+pload[183] = 2f
+pload[184] = 23
+pload[185] = 53
+pload[186] = cd
+pload[187] = 3
+pload[188] = 18
+pload[189] = aa
+pload[190] = c8
+pload[191] = 11
+pload[192] = fc
+pload[193] = 53
+pload[194] = ee
+pload[195] = 2d
+pload[196] = 5f
+pload[197] = 6e
+pload[198] = 1e
+pload[199] = 4e
+crc = 0
+UVM_INFO my_monitor.sv(70) @ 90300000: uvm_test_top.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 90300000: uvm_test_top.scb [my_scoreboard] Compare SUCCESSFULLY
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   17
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[my_driver]     4
+[my_model]     2
+[my_monitor]     8
+[my_scoreboard]     2
+$finish called from file "/home/hao/wrk/my_uvm/uvm-1.1d/src/base/uvm_root.svh", line 430.
+$finish at simulation time             90900000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 90900000 ps
+CPU Time:      0.280 seconds;       Data structure size:   0.2Mb
+Fri Oct 23 10:36:07 2020

@@ -1,0 +1,9 @@
+debImport "-f" "filelist.f"
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+srcHBSelect "top_tb.my_dut" -win $_nTrace1
+srcHBSelect "top_tb.my_dut" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb.my_dut" -delim "."
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+debExit

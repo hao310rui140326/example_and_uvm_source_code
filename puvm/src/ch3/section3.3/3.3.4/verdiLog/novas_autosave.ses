@@ -1,0 +1,45 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+viewport = 1274 496 900 700 294 448 61 898
+activeNode = "uvm_pkg"
+activeScope = "uvm_pkg"
+activeFile = "/home/hao/wrk/UVM/uvm-1.1d/src/uvm_pkg.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 26
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "uvm_pkg"
+Scope2 = "top_tb"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = uvm_pkg
+File = /home/hao/wrk/UVM/uvm-1.1d/src/uvm_pkg.sv
+Line = 27
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/hao/wrk/UVM/example_and_uvm_source_code/puvm/src/ch3/section3.3/3.3.4
+design = DebussyLib
+hostCommand = hostCommand -sv -f filelist.f

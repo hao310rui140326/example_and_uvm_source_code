@@ -1,0 +1,32 @@
+debImport "-f" "filelist.f"
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+verdiWindowResize -win $_Verdi_1 "760" "319" "902" "699"
+verdiWindowResize -win $_Verdi_1 "760" "319" "996" "733"
+verdiWindowResize -win $_Verdi_1 "760" "319" "1188" "813"
+verdiWindowResize -win $_Verdi_1 "760" "319" "1498" "935"
+verdiWindowResize -win $_Verdi_1 "760" "319" "1626" "1025"
+verdiWindowResize -win $_Verdi_1 "760" "319" "1697" "1070"
+verdiWindowResize -win $_Verdi_1 "760" "319" "1699" "1070"
+verdiWindowResize -win $_Verdi_1 "760" "319" "1701" "1070"
+verdiWindowResize -win $_Verdi_1 "760" "319" "1700" "1070"
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 12 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 11 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 9 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 8 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 3 -win $_nTrace1
+srcAction -pos 6 3 8 -win $_nTrace1 -name "\"my_sequencer.sv\"" -ctrlKey off
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 11 -pos 3 -win $_nTrace1
+debExit

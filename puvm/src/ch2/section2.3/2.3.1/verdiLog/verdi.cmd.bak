@@ -1,0 +1,17 @@
+debImport "-f" "filelist.f"
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 3 -win $_nTrace1
+srcAction -pos 5 3 8 -win $_nTrace1 -name "\"my_transaction.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 11 3 3 -win $_nTrace1 -name "pload_cons" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 11 1 3 -win $_nTrace1 -name "constraint" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 11 3 3 -win $_nTrace1 -name "pload_cons" -ctrlKey off
+debExit

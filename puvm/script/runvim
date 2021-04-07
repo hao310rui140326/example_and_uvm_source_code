@@ -1,0 +1,2 @@
+:%s/vcs/vcs -full64/g
+:exit

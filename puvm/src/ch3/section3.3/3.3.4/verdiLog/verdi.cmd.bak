@@ -1,0 +1,10 @@
+debImport "-sv" "-f" "filelist.f"
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 3 -pos 2 -win $_nTrace1
+srcAction -pos 3 2 2 -win $_nTrace1 -name "uvm_pkg" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+debExit

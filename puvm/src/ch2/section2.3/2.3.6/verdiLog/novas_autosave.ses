@@ -1,0 +1,44 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+viewport = 585 421 1808 1038 593 762 85 1806
+activeNode = "top_tb"
+activeScope = "top_tb"
+activeFile = "my_transaction.sv#inc__$root__117#"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 26
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "top_tb"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = top_tb
+File = /home/hao/wrk/my_uvm/example_and_uvm_source_code/puvm/src/ch2/section2.3/2.3.6/my_transaction.sv#inc__$root__117#
+Line = 27
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/hao/wrk/my_uvm/example_and_uvm_source_code/puvm/src/ch2/section2.3/2.3.6
+design = DebussyLib
+hostCommand = hostCommand -f filelist.f

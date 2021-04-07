@@ -1,0 +1,97 @@
+debImport "-f" "filelist.f"
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {7 25 2 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 4 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 12 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 12 -pos 3 -win $_nTrace1
+srcAction -pos 12 3 7 -win $_nTrace1 -name "\"bus_sequencer.sv\"" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 20 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 22 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 23 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 23 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 23 -pos 3 -win $_nTrace1
+srcAction -pos 23 3 6 -win $_nTrace1 -name "\"my_case0.sv\"" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 23 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 23 -pos 3 -win $_nTrace1
+srcAction -pos 23 3 3 -win $_nTrace1 -name "\"my_case0.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {12 13 1 1 9 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {31 40 2 1 1 1}
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 20 -pos 3 -win $_nTrace1
+srcAction -pos 20 3 5 -win $_nTrace1 -name "\"my_env.sv\"" -ctrlKey off
+verdiWindowResize -win $_Verdi_1 "62" "19" "1848" "1016"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {6 7 1 1 2 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {13 17 2 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 13 8 7 -win $_nTrace1 -name "agt_scb_fifo" -ctrlKey off
+srcSelect -win $_nTrace1 -range {44 44 1 9 1 1}
+srcTBAddBrkPnt -win $_nTrace1 -line 44 -file \
+           /home/hao/wrk/my_uvm/example_and_uvm_source_code/puvm/src/ch7/section7.2/my_env.sv
+srcSelect -win $_nTrace1 -range {44 53 1 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {24 35 1 1 5 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {26 34 4 1 6 1}
+verdiWindowResize -win $_Verdi_1 "615" "140" "900" "700"
+verdiWindowResize -win $_Verdi_1 "615" "139" "900" "701"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 8 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 8 -pos 3 -win $_nTrace1
+srcAction -pos 8 3 6 -win $_nTrace1 -name "\"my_driver.sv\"" -ctrlKey off
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 3 -win $_nTrace1
+srcAction -pos 6 3 7 -win $_nTrace1 -name "\"my_transaction.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {6 12 1 1 2 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+debExit

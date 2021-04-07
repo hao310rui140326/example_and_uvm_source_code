@@ -1,0 +1,336 @@
+Command: ./simv -l vcs_sim.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Oct 23 14:21 2020
+----------------------------------------------------------------
+UVM-1.1d
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO my_driver.sv(39) @ 1100000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(46) @ 2100000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 2300000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 256100000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(39) @ 256100000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 256300000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 256300000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @945          
+  dmac             integral        48    'h5e1553342c2e
+  smac             integral        48    'h8d2441cbd2b 
+  ether_type       integral        16    'hb4d6        
+  pload            da(integral)    1253  -             
+    [0]            integral        8     'h98          
+    [1]            integral        8     'heb          
+    [2]            integral        8     'h1           
+    [3]            integral        8     'h79          
+    [4]            integral        8     'h9e          
+    ...            ...             ...   ...           
+    [1248]         integral        8     'h52          
+    [1249]         integral        8     'hfb          
+    [1250]         integral        8     'hfa          
+    [1251]         integral        8     'h2           
+    [1252]         integral        8     'h50          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 256500000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 256500000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 257100000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 257300000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 487700000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(39) @ 487700000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 487900000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 487900000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @961          
+  dmac             integral        48    'h89c86f85e8c2
+  smac             integral        48    'h936227634a55
+  ether_type       integral        16    'h6a7f        
+  pload            da(integral)    1136  -             
+    [0]            integral        8     'h10          
+    [1]            integral        8     'hd9          
+    [2]            integral        8     'hef          
+    [3]            integral        8     'h1f          
+    [4]            integral        8     'hd5          
+    ...            ...             ...   ...           
+    [1131]         integral        8     'hb3          
+    [1132]         integral        8     'h64          
+    [1133]         integral        8     'hf           
+    [1134]         integral        8     'h2b          
+    [1135]         integral        8     'h9d          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 488100000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 488100000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 488700000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 488900000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 789900000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(39) @ 789900000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 790100000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 790100000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @977          
+  dmac             integral        48    'h29ffc6d134d9
+  smac             integral        48    'h12eacd927854
+  ether_type       integral        16    'h3ee2        
+  pload            da(integral)    1489  -             
+    [0]            integral        8     'h6c          
+    [1]            integral        8     'h8           
+    [2]            integral        8     'h4d          
+    [3]            integral        8     'hfa          
+    [4]            integral        8     'hb1          
+    ...            ...             ...   ...           
+    [1484]         integral        8     'hc9          
+    [1485]         integral        8     'h77          
+    [1486]         integral        8     'haf          
+    [1487]         integral        8     'h78          
+    [1488]         integral        8     'h65          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 790300000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 790300000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 790900000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 791100000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 842700000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(39) @ 842700000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 842900000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 842900000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @993          
+  dmac             integral        48    'h18813845b96c
+  smac             integral        48    'hbfd81e3d9918
+  ether_type       integral        16    'h7927        
+  pload            da(integral)    242   -             
+    [0]            integral        8     'hf4          
+    [1]            integral        8     'h60          
+    [2]            integral        8     'h9           
+    [3]            integral        8     'hae          
+    [4]            integral        8     'hf4          
+    ...            ...             ...   ...           
+    [237]          integral        8     'h56          
+    [238]          integral        8     'h1c          
+    [239]          integral        8     'hf2          
+    [240]          integral        8     'hc0          
+    [241]          integral        8     'hd6          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 843100000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 843100000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 843700000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 843900000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 1033700000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(39) @ 1033700000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 1033900000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 1033900000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @1009         
+  dmac             integral        48    'h2ec92c048624
+  smac             integral        48    'h6eb51271e2ea
+  ether_type       integral        16    'h3cfe        
+  pload            da(integral)    933   -             
+    [0]            integral        8     'hce          
+    [1]            integral        8     'h8d          
+    [2]            integral        8     'h14          
+    [3]            integral        8     'hda          
+    [4]            integral        8     'hed          
+    ...            ...             ...   ...           
+    [928]          integral        8     'h69          
+    [929]          integral        8     'hed          
+    [930]          integral        8     'h9a          
+    [931]          integral        8     'h15          
+    [932]          integral        8     'hb           
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 1034100000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 1034100000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 1034700000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 1034900000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 1307900000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(39) @ 1307900000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 1308100000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 1308100000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @1025         
+  dmac             integral        48    'hf2c32d1180db
+  smac             integral        48    'h5896e9ad8d4 
+  ether_type       integral        16    'h19ca        
+  pload            da(integral)    1349  -             
+    [0]            integral        8     'h52          
+    [1]            integral        8     'h8f          
+    [2]            integral        8     'h94          
+    [3]            integral        8     'hfd          
+    [4]            integral        8     'h21          
+    ...            ...             ...   ...           
+    [1344]         integral        8     'ha4          
+    [1345]         integral        8     'h4c          
+    [1346]         integral        8     'hf0          
+    [1347]         integral        8     'h7           
+    [1348]         integral        8     'h8e          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 1308300000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 1308300000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 1308900000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 1309100000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 1380700000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(39) @ 1380700000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 1380900000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 1380900000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @1041         
+  dmac             integral        48    'h245c1f182e53
+  smac             integral        48    'hc60fd3a979ab
+  ether_type       integral        16    'h7645        
+  pload            da(integral)    342   -             
+    [0]            integral        8     'h9e          
+    [1]            integral        8     'h18          
+    [2]            integral        8     'h76          
+    [3]            integral        8     'hd0          
+    [4]            integral        8     'hf9          
+    ...            ...             ...   ...           
+    [337]          integral        8     'h94          
+    [338]          integral        8     'h4           
+    [339]          integral        8     'h19          
+    [340]          integral        8     'h31          
+    [341]          integral        8     'h2f          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 1381100000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 1381100000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 1381700000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 1381900000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 1409900000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(39) @ 1409900000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 1410100000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 1410100000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @1057         
+  dmac             integral        48    'h218303d9c9c6
+  smac             integral        48    'hb413b855f120
+  ether_type       integral        16    'hda8b        
+  pload            da(integral)    124   -             
+    [0]            integral        8     'h72          
+    [1]            integral        8     'h94          
+    [2]            integral        8     'he5          
+    [3]            integral        8     'h84          
+    [4]            integral        8     'hab          
+    ...            ...             ...   ...           
+    [119]          integral        8     'he3          
+    [120]          integral        8     'hc4          
+    [121]          integral        8     'h9c          
+    [122]          integral        8     'h18          
+    [123]          integral        8     'hfb          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 1410300000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 1410300000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 1410900000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 1411100000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 1464900000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(39) @ 1464900000: uvm_test_top.env.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 1465100000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 1465100000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @1073         
+  dmac             integral        48    'hd4c6c0761b25
+  smac             integral        48    'hde8571f90c5a
+  ether_type       integral        16    'h1a03        
+  pload            da(integral)    253   -             
+    [0]            integral        8     'h31          
+    [1]            integral        8     'h17          
+    [2]            integral        8     'hf8          
+    [3]            integral        8     'h65          
+    [4]            integral        8     'ha1          
+    ...            ...             ...   ...           
+    [248]          integral        8     'had          
+    [249]          integral        8     'hbf          
+    [250]          integral        8     'h62          
+    [251]          integral        8     'he7          
+    [252]          integral        8     'h70          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 1465300000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 1465300000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 1465900000: uvm_test_top.env.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 1466100000: uvm_test_top.env.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(49) @ 1705300000: uvm_test_top.env.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_monitor.sv(58) @ 1705500000: uvm_test_top.env.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 1705500000: uvm_test_top.env.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @1085         
+  dmac             integral        48    'hc69023d47e20
+  smac             integral        48    'heb4511efd61f
+  ether_type       integral        16    'h399f        
+  pload            da(integral)    1180  -             
+    [0]            integral        8     'h9a          
+    [1]            integral        8     'hb7          
+    [2]            integral        8     'hfd          
+    [3]            integral        8     'h1b          
+    [4]            integral        8     'h25          
+    ...            ...             ...   ...           
+    [1175]         integral        8     'h87          
+    [1176]         integral        8     'h96          
+    [1177]         integral        8     'h7c          
+    [1178]         integral        8     'hf2          
+    [1179]         integral        8     'h6b          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 1705700000: uvm_test_top.env.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 1705700000: uvm_test_top.env.scb [my_scoreboard] Compare SUCCESSFULLY
+TEST CASE PASSED
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   81
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[my_driver]    20
+[my_model]    10
+[my_monitor]    40
+[my_scoreboard]    10
+$finish called from file "/home/hao/wrk/my_uvm/uvm-1.1d/src/base/uvm_root.svh", line 430.
+$finish at simulation time           1706300000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1706300000 ps
+CPU Time:      0.270 seconds;       Data structure size:   0.2Mb
+Fri Oct 23 14:21:06 2020

@@ -1,0 +1,103 @@
+Command: ./simv -l vcs_sim.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Oct 23 10:53 2020
+----------------------------------------------------------------
+UVM-1.1d
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test my_env...
+UVM_INFO my_driver.sv(43) @ 1100000: uvm_test_top.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(46) @ 2100000: uvm_test_top.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 2300000: uvm_test_top.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(53) @ 45500000: uvm_test_top.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_driver.sv(43) @ 45500000: uvm_test_top.i_agt.drv [my_driver] begin to drive one pkt
+UVM_INFO my_monitor.sv(58) @ 45700000: uvm_test_top.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 45700000: uvm_test_top.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @781          
+  dmac             integral        48    'h35598b8e3451
+  smac             integral        48    'h235fc766340c
+  ether_type       integral        16    'h9ac2        
+  pload            da(integral)    200   -             
+    [0]            integral        8     'he2          
+    [1]            integral        8     'ha9          
+    [2]            integral        8     'h3c          
+    [3]            integral        8     'hd9          
+    [4]            integral        8     'hfa          
+    ...            ...             ...   ...           
+    [195]          integral        8     'hd2          
+    [196]          integral        8     'he1          
+    [197]          integral        8     'h3d          
+    [198]          integral        8     'hc5          
+    [199]          integral        8     'h41          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 45900000: uvm_test_top.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 45900000: uvm_test_top.scb [my_scoreboard] Compare SUCCESSFULLY
+UVM_INFO my_monitor.sv(46) @ 46500000: uvm_test_top.i_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_monitor.sv(46) @ 46700000: uvm_test_top.o_agt.mon [my_monitor] begin to collect one pkt
+UVM_INFO my_driver.sv(53) @ 89900000: uvm_test_top.i_agt.drv [my_driver] end drive one pkt
+UVM_INFO my_monitor.sv(58) @ 90100000: uvm_test_top.i_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_model.sv(34) @ 90100000: uvm_test_top.mdl [my_model] get one transaction, copy and print it:
+-------------------------------------------------------
+Name               Type            Size  Value         
+-------------------------------------------------------
+uvm_sequence_item  my_transaction  -     @793          
+  dmac             integral        48    'h16dab46ffe74
+  smac             integral        48    'h8d3cf1f866f3
+  ether_type       integral        16    'h59b0        
+  pload            da(integral)    200   -             
+    [0]            integral        8     'hb7          
+    [1]            integral        8     'h2c          
+    [2]            integral        8     'hba          
+    [3]            integral        8     'h9f          
+    [4]            integral        8     'hde          
+    ...            ...             ...   ...           
+    [195]          integral        8     'h2d          
+    [196]          integral        8     'h5f          
+    [197]          integral        8     'h6e          
+    [198]          integral        8     'h1e          
+    [199]          integral        8     'h4e          
+  crc              integral        32    'h0           
+-------------------------------------------------------
+UVM_INFO my_monitor.sv(58) @ 90300000: uvm_test_top.o_agt.mon [my_monitor] end collect one pkt
+UVM_INFO my_scoreboard.sv(40) @ 90300000: uvm_test_top.scb [my_scoreboard] Compare SUCCESSFULLY
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   17
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[my_driver]     4
+[my_model]     2
+[my_monitor]     8
+[my_scoreboard]     2
+$finish called from file "/home/hao/wrk/my_uvm/uvm-1.1d/src/base/uvm_root.svh", line 430.
+$finish at simulation time             90900000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 90900000 ps
+CPU Time:      0.270 seconds;       Data structure size:   0.2Mb
+Fri Oct 23 10:53:20 2020

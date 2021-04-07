@@ -1,0 +1,46 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+viewport = 142 53 1700 752 557 503 126 1846
+activeNode = "top_tb.my_dut"
+activeScope = "top_tb.my_dut"
+activeFile = ".//dut/dut.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 0
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "top_tb.my_dut"
+Scope2 = "top_tb"
+multipleSelection = 1 0 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = top_tb.my_dut
+File = /home/hao/wrk/my_uvm/example_and_uvm_source_code/puvm/src/ch2/section2.4/2.4.1/dut/dut.sv
+Line = 1
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/hao/wrk/my_uvm/example_and_uvm_source_code/puvm/src/ch2/section2.4/2.4.1
+design = DebussyLib
+hostCommand = hostCommand -f filelist.f

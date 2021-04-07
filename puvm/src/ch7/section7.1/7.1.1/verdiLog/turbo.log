@@ -1,0 +1,3 @@
+Command Line: /usr/synopsys/Verdi3_L-2016.06-1/platform/LINUXAMD64/bin/Novas -f filelist.f
+uname(Linux hao-Lenovo-Rescuer-15ISK 5.8.0-44-generic #50~20.04.1-Ubuntu SMP Wed Feb 10 21:07:30 UTC 2021 x86_64)
+au time 1121.911641 70.020233 47.513874 delta 214851584 214851584 total 545189888 545189888

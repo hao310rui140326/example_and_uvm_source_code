@@ -1,0 +1,45 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+viewport = 810 297 900 700 294 448 61 898
+activeNode = "UPF"
+activeScope = "UPF"
+activeFile = "/usr/synopsys/Verdi3_L-2016.06-1/etc/kdb/power/upf/novas_upf.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 0
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "UPF"
+multipleSelection = 1 0 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = UPF
+File = /usr/synopsys/Verdi3_L-2016.06-1/etc/kdb/power/upf/novas_upf.sv
+Line = 1
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/hao/wrk/UVM/example_and_uvm_source_code/puvm/src/ch2/section2.5
+design = DebussyLib
+hostCommand = hostCommand -sv -f filelist.f

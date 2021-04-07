@@ -1,0 +1,14 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-1)
+Command arguments:
+    +define+verilog
+    -sv
+    -f filelist.f
+        +incdir+/home/hao/wrk/UVM/uvm-1.1d/src
+        /home/hao/wrk/UVM/uvm-1.1d/src/uvm_pkg.sv
+        /home/hao/wrk/UVM/example_and_uvm_source_code/puvm/src/ch2/section2.4/2.4.1/dut/dut.sv
+        top_tb.sv
+
+Highest level modules:
+top_tb
+
+Total	0 error(s),   0 warning(s)

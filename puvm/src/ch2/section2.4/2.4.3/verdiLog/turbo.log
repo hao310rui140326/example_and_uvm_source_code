@@ -1,0 +1,3 @@
+Command Line: /usr/synopsys/Verdi3_L-2016.06-1/platform/LINUXAMD64/bin/Novas -sv -f filelist.f
+uname(Linux localhost 3.10.0-1127.el7.x86_64 #1 SMP Tue Mar 31 23:36:51 UTC 2020 x86_64)
+au time 2802.563240 51.937274 37.429231 delta 281616384 281616384 total 663719936 663719936

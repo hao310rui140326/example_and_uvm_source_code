@@ -1,0 +1,780 @@
+debImport "-sv" "-f" "filelist.f"
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiWindowResize -win $_Verdi_1 -1 "27" "1366" "665"
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+verdiWindowResize -win $_Verdi_1 -1 "27" "1366" "665"
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 9 -pos 3 -win $_nTrace1
+srcAction -pos 9 3 6 -win $_nTrace1 -name "\"my_agent.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 33 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 33 -pos 1 -win $_nTrace1
+srcAction -pos 33 1 8 -win $_nTrace1 -name "drv.seq_item_port.connect" -ctrlKey \
+          off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 33 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 31 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -signal "UVM_ACTIVE" -line 33 -pos 0
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 33 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 33 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 33 -pos 1 -win $_nTrace1
+srcAction -pos 33 1 12 -win $_nTrace1 -name "drv.seq_item_port.connect" -ctrlKey \
+          off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 431 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 430 -pos 7 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+verdiDockWidgetHide -dock widgetDock_<Message>
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 434 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 460 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 463 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 485 1 5 -win $_nTrace1 -name \
+          "m_provided_by\[provider.get_full_name\(\)\]" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {393 393 2 2 12 36}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {396 397 2 1 11 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {398 400 2 1 25 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {399 400 2 2 29 68}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {406 406 2 2 22 32}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {408 408 2 2 19 39}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {410 411 2 1 12 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {393 393 2 2 5 50}
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 12 -pos 3 -win $_nTrace1
+srcAction -pos 12 3 5 -win $_nTrace1 -name "\"my_env.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 39 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 40 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 41 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 39 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 40 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 39 3 20 -win $_nTrace1 -name "agt_mdl_fifo.analysis_export" \
+          -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 38 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 39 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 40 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 39 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 40 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 41 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 40 -pos 1 -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcForwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcForwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 39 -pos 1 -win $_nTrace1
+srcAction -pos 39 1 13 -win $_nTrace1 -name "i_agt.ap.connect" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {441 446 2 1 2 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {447 452 1 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {453 457 2 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {459 466 1 1 4 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {469 475 2 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {486 488 1 1 4 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {483 485 1 1 2 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {486 489 1 1 4 1} -backward
+srcDeselectAll -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 14 -pos 3 -win $_nTrace1
+srcAction -pos 14 3 4 -win $_nTrace1 -name "\"my_case0.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 6 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {10 17 2 1 6 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 13 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcAction -pos 2 2 6 -win $_nTrace1 -name "case0_sequence" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {10 17 1 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {13 16 2 6 3 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 13 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 13 -pos 4 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 26 -pos 6 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 26 -pos 2 -win $_nTrace1
+srcAction -pos 26 2 4 -win $_nTrace1 -name "my_case0" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {40 44 1 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {41 41 2 2 2 26}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {40 43 1 5 1 2}
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 42 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {41 42 2 2 2 16}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {42 42 2 2 1 16}
+srcDeselectAll -win $_nTrace1
+srcAction -pos 40 1 7 -win $_nTrace1 -name "\"env.i_agt.sqr.main_phase\"" \
+          -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 40 1 21 -win $_nTrace1 -name "\"env.i_agt.sqr.main_phase\"" \
+          -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 42 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 42 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {43 43 2 7 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 40 1 11 -win $_nTrace1 -name "\"env.i_agt.sqr.main_phase\"" \
+          -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 42 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 40 1 12 -win $_nTrace1 -name "\"env.i_agt.sqr.main_phase\"" \
+          -ctrlKey off
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {50 52 2 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcHBSelect "top_tb.my_dut" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb.my_dut" -delim "."
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 14 -pos 3 -win $_nTrace1
+srcAction -pos 14 3 6 -win $_nTrace1 -name "\"my_case0.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {41 41 2 2 2 26} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {42 43 2 10 2 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 42 -pos 1 -win $_nTrace1
+srcSelect -win $_nTrace1 -range {43 43 2 8 3 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {40 45 1 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 40 1 11 -win $_nTrace1 -name "\"env.i_agt.sqr.main_phase\"" \
+          -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 40 1 2 -win $_nTrace1 -name "\"env.i_agt.sqr.main_phase\"" \
+          -ctrlKey off
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 14 -pos 3 -win $_nTrace1
+srcAction -pos 14 3 5 -win $_nTrace1 -name "\"my_case0.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {29 46 1 3 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {29 43 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcAction -pos 2 2 7 -win $_nTrace1 -name "case0_sequence" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {6 28 1 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 53 -pos 20 -win $_nTrace1
+srcAction -pos 53 20 7 -win $_nTrace1 -name "input_if" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb.input_if" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 53 14 25 -win $_nTrace1 -name "\"uvm_test_top.env.i_agt.drv\"" \
+          -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 53 17 2 -win $_nTrace1 -name "\"vif\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 54 14 25 -win $_nTrace1 -name "\"uvm_test_top.env.i_agt.mon\"" \
+          -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 54 17 2 -win $_nTrace1 -name "\"vif\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 53 -pos 1 -win $_nTrace1
+srcAction -pos 53 1 9 -win $_nTrace1 -name "uvm_config_db" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 53 6 1 -win $_nTrace1 -name "my_if" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 25 0 2 -win $_nTrace1 -name "my_if" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 53 6 2 -win $_nTrace1 -name "my_if" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 25 -pos 2 -win $_nTrace1
+srcAction -pos 25 2 3 -win $_nTrace1 -name "input_if" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "data" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "valid" -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb.input_if" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 53 -pos 9 -win $_nTrace1
+srcAction -pos 53 9 1 -win $_nTrace1 -name "set" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "inst_name" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "field_name" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 148 -pos 11 -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 53 11 1 -win $_nTrace1 -name "null" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 53 -pos 9 -win $_nTrace1
+srcAction -pos 53 9 2 -win $_nTrace1 -name "set" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "inst_name" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "field_name" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "value" -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 53 -pos 20 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 54 -pos 20 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 55 -pos 20 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcForwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcForwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 53 14 25 -win $_nTrace1 -name "\"uvm_test_top.env.i_agt.drv\"" \
+          -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 7 -pos 3 -win $_nTrace1
+srcAction -pos 7 3 9 -win $_nTrace1 -name "\"my_driver.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 4 3 1 -win $_nTrace1 -name "my_if" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb.input_if" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {5 6 1 1 3 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcAction -pos 2 2 6 -win $_nTrace1 -name "my_driver" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 4 -pos 5 -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 53 -pos 20 -win $_nTrace1
+srcAction -pos 53 20 4 -win $_nTrace1 -name "input_if" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb.input_if" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 54 14 25 -win $_nTrace1 -name "\"uvm_test_top.env.i_agt.mon\"" \
+          -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 54 -pos 20 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 55 -pos 20 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 55 14 25 -win $_nTrace1 -name "\"uvm_test_top.env.o_agt.mon\"" \
+          -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {54 57 1 1 2 1} -backward
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 53 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 54 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 12 -pos 3 -win $_nTrace1
+srcAction -pos 12 3 5 -win $_nTrace1 -name "\"my_env.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 3 -pos 6 -win $_nTrace1
+srcAction -pos 3 6 3 -win $_nTrace1 -name "uvm_env" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 3 -pos 2 -win $_nTrace1
+srcAction -pos 3 2 2 -win $_nTrace1 -name "my_env" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {11 15 1 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 10 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 11 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 12 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 10 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 10 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 11 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 12 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 12 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 7 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 7 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 12 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 11 -pos 8 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {39 46 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {3 5 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 8 -pos 3 -win $_nTrace1
+srcSelect -win $_nTrace1 -range {6 9 2 4 1 3} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {6 14 1 1 3 1} -backward
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {15 18 2 1 2 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {21 31 1 1 6 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {21 30 1 1 5 1} -backward
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {23 25 2 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {27 30 2 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 24 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 20 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 21 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 7 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {23 25 1 1 5 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_agt.is_active" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_agt.is_active" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -signal "UVM_ACTIVE" -line 23 -pos 0
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "o_agt.is_active" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -signal "UVM_PASSIVE" -line 24 -pos 0
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {27 30 1 1 5 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -signal "UVM_ACTIVE" -line 23 -pos 0
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_agt.is_active" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_agt.is_active" -win $_nTrace1
+srcAction -pos 22 1 2 -win $_nTrace1 -name "i_agt.is_active" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 38 -pos 4 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "is_active" -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "o_agt.is_active" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "i_agt.is_active" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 3 -win $_nTrace1
+srcAction -pos 5 3 1 -win $_nTrace1 -name "i_agt" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcAction -pos 5 1 3 -win $_nTrace1 -name "my_agent" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 21 -pos 6 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -signal "is_active" -line 24 -pos 1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -signal "UVM_ACTIVE" -line 24 -pos 0
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {25 27 1 1 6 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {28 29 1 1 2 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 25 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 25 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 24 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 25 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {28 29 1 1 2 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 24 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 25 -pos 1 -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcAction -pos 5 1 5 -win $_nTrace1 -name "my_agent" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {5 8 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {23 30 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 1 -win $_nTrace1
+srcAction -pos 6 1 5 -win $_nTrace1 -name "my_agent" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 3 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 7 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 8 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {10 15 1 1 2 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcAction -pos 5 1 5 -win $_nTrace1 -name "my_agent" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 3 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcAction -pos 5 1 5 -win $_nTrace1 -name "my_agent" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 3 -pos 6 -win $_nTrace1
+srcAction -pos 3 6 3 -win $_nTrace1 -name "uvm_agent" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 4 -pos 1 -win $_nTrace1
+srcAction -pos 4 1 5 -win $_nTrace1 -name "my_sequencer" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcAction -pos 5 1 5 -win $_nTrace1 -name "my_driver" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 1 -win $_nTrace1
+srcAction -pos 6 1 5 -win $_nTrace1 -name "my_monitor" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 4 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 6 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 17 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 3 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 3 -pos 6 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 3 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 21 -pos 4 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 21 -pos 6 -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 14 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 14 -pos 3 -win $_nTrace1
+srcAction -pos 14 3 6 -win $_nTrace1 -name "\"my_case0.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcAction -pos 2 2 9 -win $_nTrace1 -name "case0_sequence" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {9 19 1 1 3 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {9 19 1 1 2 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {2 27 3 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 54 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 55 -pos 1 -win $_nTrace1
+srcAction -pos 55 1 6 -win $_nTrace1 -name "uvm_config_db" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 62 -pos 2 -win $_nTrace1
+srcAction -pos 62 2 5 -win $_nTrace1 -name "uvm_config_db" -ctrlKey off
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 11 -pos 3 -win $_nTrace1
+srcAction -pos 11 3 9 -win $_nTrace1 -name "\"my_scoreboard.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 31 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 31 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 31 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 36 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 37 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "result" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 37 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 37 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 39 4 6 -win $_nTrace1 -name "\"my_scoreboard\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 37 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 39 4 4 -win $_nTrace1 -name "\"my_scoreboard\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 39 7 11 -win $_nTrace1 -name "\"Compare SUCCESSFULLY\"" -ctrlKey \
+          off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {40 40 11 11 6 7}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 39 10 4 -win $_nTrace1 -name "UVM_LOW" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 42 -pos 2 -win $_nTrace1
+srcAction -pos 42 2 4 -win $_nTrace1 -name "uvm_error" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {40 42 1 1 14 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 37 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcAction -pos 42 4 8 -win $_nTrace1 -name "\"my_scoreboard\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 37 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 37 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 34 -pos 3 -win $_nTrace1
+srcAction -pos 34 3 3 -win $_nTrace1 -name "get_actual" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "ether_type" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 31 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 30 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 31 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "result" -win $_nTrace1
+srcAction -pos 38 3 3 -win $_nTrace1 -name "result" -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 6 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 6 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 6 -win $_nTrace1
+srcHBSelect "top_tb.my_dut" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb.my_dut" -delim "."
+srcHBSelect "top_tb.output_if" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb.output_if" -delim "."
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 14 -pos 3 -win $_nTrace1
+srcAction -pos 14 3 5 -win $_nTrace1 -name "\"my_case0.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {2 18 2 1 4 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 14 -pos 2 -win $_nTrace1
+srcAction -pos 14 2 3 -win $_nTrace1 -name "uvm_info" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcAction -pos 107 3 5 -win $_nTrace1 -name "uvm_info" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 14 -pos 3 -win $_nTrace1
+srcAction -pos 14 3 5 -win $_nTrace1 -name "\"my_case0.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcAction -pos 2 2 3 -win $_nTrace1 -name "case0_sequence" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 2 -pos 2 -win $_nTrace1
+srcAction -pos 2 2 10 -win $_nTrace1 -name "case0_sequence" -ctrlKey off
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."

@@ -1,0 +1,73 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/hao/wrk/my_ddr3/tvip-axi/sample/work/default/dump.vpd -design V1} {gui_open_db -file /home/hao/wrk/my_ddr3/tvip-axi/sample/work/out_of_order_response/dump.vpd -design V1} {gui_open_db -file /home/hao/wrk/my_riscv/e200_opensource-master/vsim/run/rv32ui-p-add/vcdplus.vpd -design V1} {gui_open_db -file /home/hao/wrk/my_riscv/e200_opensource-master/vsim/run/rv32ui-p-addi/vcdplus.vpd -design V1} {gui_open_db -file /home/hao/wrk/my_verilog/my_order/sim/vcdplus.vpd -design V1}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1847
+gui_set_state_value -category Layout -key child_console_size_y -value 172
+gui_set_state_value -category Layout -key child_data_coltype -value 21
+gui_set_state_value -category Layout -key child_data_colvalue -value 12
+gui_set_state_value -category Layout -key child_data_colvariable -value 149
+gui_set_state_value -category Layout -key child_data_size_x -value 169
+gui_set_state_value -category Layout -key child_data_size_y -value 762
+gui_set_state_value -category Layout -key child_driver_size_x -value 1640
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 427
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 97
+gui_set_state_value -category Layout -key child_hier_size_x -value 531
+gui_set_state_value -category Layout -key child_hier_size_y -value 762
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1150
+gui_set_state_value -category Layout -key child_source_size_y -value 757
+gui_set_state_value -category Layout -key child_wave_colname -value 267
+gui_set_state_value -category Layout -key child_wave_colvalue -value 267
+gui_set_state_value -category Layout -key child_wave_left -value 536
+gui_set_state_value -category Layout -key child_wave_right -value 1306
+gui_set_state_value -category Layout -key main_pos_x -value 1
+gui_set_state_value -category Layout -key main_pos_y -value 38
+gui_set_state_value -category Layout -key main_size_x -value 1848
+gui_set_state_value -category Layout -key main_size_y -value 1053
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1852
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 929
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 1
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 38
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1848
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1053
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key Find|m_pFindFrame|m_pFindCombo -value_type string -value {wr_data compare_data itrans_data com_data input}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_top_dock|&Edit|FindCombo -value_type string -value {wr_data compare_data itrans_data com_data input}
+gui_create_state_key -category Widget_History -key TopLevel.2|qt_top_dock|&Edit|FindCombo -value_type string -value {wr_data compare_data itrans_data com_data input}
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/hao/wrk/my_uvm/example_and_uvm_source_code/puvm/src/ch7/section7.1/7.1.1/top_tb.vcd -design V1
+gui_list_select -id Hier.1 -current_item_name top_tb -current_item_type Scope  -selected  { top_tb   }
+gui_list_expand -id  Hier.1   top_tb
+gui_list_select -id Hier.1 -current_item_name top_tb.input_if -current_item_type Scope  -selected  { top_tb.input_if   }
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut -current_item_type Scope  -selected  { top_tb.my_dut   }
+gui_list_show_data -select -id  Hier.1   top_tb.my_dut
+gui_list_select -id Hier.1 -current_item_name {top_tb.unnamed$$_vcs_0} -current_item_type Scope  -selected  { {top_tb.unnamed$$_vcs_0}   }
+gui_list_select -id Hier.1 -current_item_name top_tb.input_if -current_item_type Scope  -selected  { top_tb.input_if   }
+gui_list_select -id Hier.1 -current_item_name top_tb.b_if -current_item_type Scope  -selected  { top_tb.b_if   }
+gui_list_select -id Hier.1 -current_item_name top_tb -current_item_type Scope  -selected  { top_tb   }
+gui_list_collapse -id  Hier.1   top_tb
+gui_list_expand -id  Hier.1   top_tb
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut -current_item_type Scope  -selected  { top_tb.my_dut   }
+gui_list_select -id Hier.1 -current_item_name top_tb -current_item_type Scope  -selected  { top_tb   }
+gui_list_action -id  Hier.1 top_tb
+gui_list_action -id  Hier.1 top_tb
+gui_list_action -id  Hier.1 top_tb
+gui_list_action -id  Hier.1 top_tb
+gui_list_action -id  Hier.1 top_tb
+gui_list_select -id Hier.1 -current_item_name top_tb.my_dut -current_item_type Scope  -selected  { top_tb.my_dut   }

@@ -1,0 +1,8 @@
+//##csh
+//##../../../../setup.vcs
+ln -s   ../../../ch2/dut  ./dut 
+vim -s ../../../../script/runvim run_tc
+vim -s ../../../../script/flistvim filelist.f
+./run_tc  my_case0
+verdi -sv -f filelist.f &
+

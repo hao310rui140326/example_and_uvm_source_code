@@ -1,0 +1,53 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+viewport = 19 20 1219 665 399 378 96 1217
+activeNode = "top_tb"
+activeScope = "top_tb"
+activeFile = "top_tb.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 3
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "top_tb"
+Scope2 = "base_test"
+Scope3 = "uvm_pkg"
+Scope4 = "my_env"
+Scope5 = "drive_one_pkt"
+Scope6 = "get_next_item"
+Scope7 = "uvm_driver"
+Scope8 = "my_transaction"
+Scope9 = "case0_sequence"
+Scope10 = "collect_one_pkt"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = top_tb
+File = /home/hao/wrk/UVM/example_and_uvm_source_code/puvm/src/ch3/section3.3/3.3.3/top_tb.sv
+Line = 4
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/hao/wrk/UVM/example_and_uvm_source_code/puvm/src/ch3/section3.3/3.3.3
+design = DebussyLib
+hostCommand = hostCommand -sv -f filelist.f

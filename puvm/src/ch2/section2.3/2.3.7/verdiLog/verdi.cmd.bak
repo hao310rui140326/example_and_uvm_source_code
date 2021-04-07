@@ -1,0 +1,55 @@
+debImport "-f" "filelist.f"
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+verdiWindowResize -win $_Verdi_1 "737" "352" "904" "700"
+verdiWindowResize -win $_Verdi_1 "737" "352" "951" "722"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1107" "788"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1341" "886"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1453" "944"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1460" "951"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1476" "967"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1488" "991"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1498" "1009"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1501" "1013"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1502" "1014"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1503" "1013"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1513" "1011"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1548" "1005"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1554" "1003"
+verdiWindowResize -win $_Verdi_1 "737" "352" "1555" "1003"
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 11 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 3 -win $_nTrace1
+srcAction -pos 5 3 8 -win $_nTrace1 -name "\"my_transaction.sv\"" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {22 34 4 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "UVM_ALL_ON" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {24 31 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcHBSelect "top_tb.my_dut" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb.my_dut" -delim "."
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 3 -win $_nTrace1
+srcAction -pos 5 3 11 -win $_nTrace1 -name "\"my_transaction.sv\"" -ctrlKey off
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 10 -pos 3 -win $_nTrace1
+srcAction -pos 10 3 10 -win $_nTrace1 -name "\"my_scoreboard.sv\"" -ctrlKey off
+srcHBSelect "top_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "top_tb" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 10 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 11 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 5 -pos 3 -win $_nTrace1
+debExit
